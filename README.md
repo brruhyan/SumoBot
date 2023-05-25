@@ -3,6 +3,7 @@ An automated robotic system with an Arduino UNO R3 at its core. Automation is ac
 an L298N Motor Driver. 
 
 Parts used:
+
 (4) 18650 2200mAh 
 
 (2) 1000RPM 12V Motor
