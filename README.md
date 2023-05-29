@@ -3,7 +3,7 @@ An automated robotic system with an Arduino UNO R3 at its core. Automation is ac
 
 Parts used:
 
-(4) 18650 2200mAh 
+(4) 18650 2200mAh Batteries
 
 (2) 1000RPM 12V Motor
 
