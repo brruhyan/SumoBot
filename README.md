@@ -10,7 +10,7 @@ Parts used:
 
 (2) HC-SR04 Ultrasonic Sensor
 
-(2) TCRT5000 based Line Sensors
+(2) TCRT5000 based Line Sensor
 
 (1) L298N Motor Driver
 
