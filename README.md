@@ -1,5 +1,5 @@
 # SumoBot
-An automated robotic system with an Arduino UNO R3 at its core. Automation is achieved through various sensors. In conjunction with an L298N Motor Driver. 
+An automated robotic system with an Arduino UNO R3 at its core. Automation is achieved through various sensors, in conjunction with an L298N Motor Driver. 
 
 Parts used:
 
