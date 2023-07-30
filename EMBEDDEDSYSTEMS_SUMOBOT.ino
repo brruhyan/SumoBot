@@ -12,8 +12,6 @@ const int echoPinR = A1;
 const int trigPinL = A2;
 const int echoPinL = A3;
 
-// Ultrasonic Sensor (Front)
-
 
 // Ultrasonic Sensor Declaration
 long durationL;
@@ -38,7 +36,7 @@ void setup() {
   pinMode(motorLSpeed, OUTPUT);
   pinMode(motorRSpeed, OUTPUT);
 
-    // Ultrasonic Sensor
+  // Ultrasonic Sensor
   pinMode(trigPinL, OUTPUT);
   pinMode(echoPinL, INPUT);
   pinMode(echoPinR, INPUT);
@@ -91,8 +89,7 @@ void reverseRightSensorWhite() {
 
 
 void loop() {
-  // put your main code here, to run repeatedly:   
-  
+    
   //LINE SENSORS RIGHT
   sensorValueR = digitalRead(sensorPinR);
   Serial.print("Right:");
@@ -114,7 +111,7 @@ void loop() {
   durationL = pulseIn(echoPinL, HIGH, 8750ul);
   distanceL = durationL * 0.034 / 2;
 
-    //ULTRASONIC SENSOR LEFT
+    //ULTRASONIC SENSOR RIGHT
   digitalWrite(trigPinR,LOW);
   delayMicroseconds(2);
   digitalWrite(trigPinR, HIGH);
@@ -151,7 +148,7 @@ void loop() {
 
 
   if (frontSpeedUpLeft){
-    Serial.println("FRONT DETECTED");
+    Serial.println("LEFT DETECTED");
   
    analogWrite(motorLSpeed, 255);
   analogWrite(motorRSpeed, 200);
